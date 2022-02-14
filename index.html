@@ -13,14 +13,15 @@
 <body>
     <header>
         <div id="titre">
-            <img src='Images\logo\ohmyfood.png' alt='logo de ohmyfood'>
+            <img src='Images\logo\ohmyfood.png' width="200" alt='logo de ohmyfood'>
         </div>
-        <div id="localisation">Paris, Belleville</div>
+        <!-- mettre un input type texte -->
+        <p id="localisation">Paris, Belleville</p>
         <div id='reservez'>
             <h1>Réservez le menu qui vous convient</h1>
             <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
 
-            <span id='explorer'>Explorer nos restaurants</span>
+            <button id='explorer'>Explorer nos restaurants</button>
         </div>
     </header>
 
@@ -28,13 +29,13 @@
         <section>
             <div class="etapes_fonctionnement">
                 <h2>Fonctionnement</h2>
-
-                <div class='etapes'><i class="fa-solid fa-mobile-screen-button"></i> Choisissez un restaurant
+                <!-- remplacer div par ul il ol -->
+                <div class='etapes'><i class="fas fa-mobile-alt"></i> Choisissez un restaurant
                 </div>
 
-                <div class='etapes'><i class="fa-solid fa-list"></i> Composez votre menu</div>
+                <div class='etapes'><i class="fas fa-list"></i> Composez votre menu</div>
 
-                <div class='etapes'><i class="fa-solid fa-store"></i> Dégustez au restaurant</div>
+                <div class='etapes'><i class="fas fa-store"></i> Dégustez au restaurant</div>
 
             </div>
         </section>
@@ -44,6 +45,8 @@
             <a href="#">
                 <div class="fiches">
                     <div class="description_fiches_accueil">
+                        <img src="Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                            alt="Photo du restaurant La palette du goût">
                         <p>La palette du goût</p>
                     </div>
                 </div>
@@ -66,9 +69,9 @@
 </body>
 
 <footer>
-    <h2>ohmyfood</h2>
-    <p><a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a></p>
-    <p><a href="#"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a></p>
+    <h2 id="logo_footer">ohmyfood</h2>
+    <p><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></p>
+    <p><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></p>
     <p><a href="#">Mentions légales</a></p>
     <p><a href="#">Contact</a></p>
 </footer>
