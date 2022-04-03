@@ -44,7 +44,7 @@ img
 {
     animation: 3s linear forwards disparition;
     width: 100%;
-    height: 300vh;
+    height: 250vh;
     position: absolute;
     z-index: 200;
     top: 0;
@@ -93,6 +93,11 @@ img
     margin-left: 15px;
 }
 
+h1
+{
+    text-align: center;
+}
+
 h3
 {
     text-transform: uppercase;
@@ -101,6 +106,7 @@ h3
 
 p {
     font-family: 'Roboto';
+    text-align: center;
 }
 
 a
@@ -122,21 +128,30 @@ footer a
 
 #titre
 {
+    display: flex;
+    justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 90px;
 }
 
 #localisation
 {
-    background-color: #eaeaea;
-    padding-bottom: 10px;
-    padding-left: 50px;
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 700;
+    color: #353535;
+    text-align: center;
+    background-color: #e9e9e9;
+    box-shadow: inset 3px 3px #d5d5d5;
 }
 
 #reservez
 {
     background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 20px;
@@ -155,9 +170,12 @@ footer a
 
 #explorer
 {
+    
     border: 4px #FFFFFF solid;
     background-color: #9356DC;
-    border-radius: 17px;
+    background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    color: white;
+    border-radius: 50px;
     box-shadow: 4px 4px 4px 4px #F2F2F2;
     padding: 20px;
     display: block;
@@ -165,17 +183,70 @@ footer a
     position: relative;
 }
 
-.fiches
+.restaurants_accueil
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fiches_accueil
+{
+    width: 87%;
+    height: 245px;
     border: 4px #FFFFFF solid;
     background-color: white;
     border-radius: 17px;
     box-shadow: 4px 4px 4px 4px #F2F2F2;
-    display: flex;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 7.5px;
     position: relative;
+}
+
+.fiches_accueil img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 170px;
+}
+
+.fiches_coeur
+{
+    background: linear-gradient(to bottom, #9356DC, #FF79DA);
+}
+
+.fiches_coeur:hover .vide
+{
+    transform: scale(0);
+}
+
+.fiches_coeur:hover .plein
+{
+    transform: scale(1);
+    transition: transform 500ms;
+}
+
+.fiches_coeur .vide
+{
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    font-size: 1,2em;
+    opacity: 1;
+}
+
+.fiches_coeur .plein
+{
+    position: absolute;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    bottom: 30px;
+    right: 15px;
+    font-size: 1,2em;
+    transform: scale(0);
 }
 
 .mini_fiches
@@ -209,6 +280,14 @@ footer a
 {
     background-color: gray;
     border-radius: 17px 17px 0 0;
+    position: relative;
+}
+
+#titre
+{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
     position: relative;
 }
 
