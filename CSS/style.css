@@ -113,6 +113,8 @@ a
 {
     text-decoration: none;
     color: black;
+    display: block;
+    width: 100%;
 }
 
 footer a
@@ -137,6 +139,7 @@ footer a
 #localisation
 {
     font-family: "Roboto";
+    display: flex;
     font-size: 1em;
     font-weight: 700;
     color: #353535;
