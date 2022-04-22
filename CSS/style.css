@@ -23,18 +23,21 @@ img
 {
     0%
     {
+        height: 250vh;
         opacity: 1;
         z-index: 200;
     }
 
     99%
     {
+        height: 250vh;
         opacity: 1;
         z-index: 200;
     }
 
     100%
     {
+        height: 0vh;
         opacity: 0;
         z-index: -10;
     }
@@ -48,7 +51,6 @@ img
     position: absolute;
     z-index: 200;
     top: 0;
-    left: 0;
     background-color: #FFFFFF;
 }
 
@@ -163,8 +165,8 @@ footer a
 
 #titre
 {
-    display: flex;
-    justify-content: center;
+    width: 60%;
+    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -173,6 +175,7 @@ footer a
 {
     font-family: "Roboto";
     display: flex;
+    justify-content: center;
     font-size: 1em;
     font-weight: 700;
     color: #353535;
@@ -180,11 +183,6 @@ footer a
     background-color: #e9e9e9;
     box-shadow: inset 3px 3px #d5d5d5;
     padding: 20px 0 20px 0;
-}
-
-#localisation p
-{
-    display: contents;
 }
 
 #reservez
@@ -239,7 +237,6 @@ footer a
 
 .fiches_accueil
 {
-    width: 87%;
     height: 245px;
     border: 4px #FFFFFF solid;
     background-color: white;
@@ -334,14 +331,6 @@ footer a
 {
     background-color: gray;
     border-radius: 17px 17px 0 0;
-    position: relative;
-}
-
-#titre
-{
-    display: flex;
-    justify-content: center;
-    margin: 15px 0;
     position: relative;
 }
 
