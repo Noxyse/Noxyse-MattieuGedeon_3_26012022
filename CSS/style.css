@@ -324,6 +324,12 @@ footer a
     margin-bottom: 7.5px;
 }
 
+.etapes i
+{
+    color: #909090;
+    padding-right: 20px;
+}
+
 .menu_page
 {
     background-color: gray;
