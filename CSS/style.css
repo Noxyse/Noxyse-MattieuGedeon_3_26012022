@@ -200,6 +200,11 @@ footer a
     padding-bottom: 30px;
 }
 
+#reservez p
+{
+    text-align: center;
+}
+
 #commander
 {
     background-color: #9356DC;
@@ -212,16 +217,15 @@ footer a
 
 #explorer
 {
-    
-    border: 4px #FFFFFF solid;
+    border: 0;
     background-color: #9356DC;
     background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
     color: white;
     border-radius: 50px;
-    box-shadow: 4px 4px 4px 4px #F2F2F2;
+    box-shadow: 4px 4px 4px #D5D5D5;
     padding: 20px;
     display: block;
-    margin: auto;
+    margin: 10px 0 10px 0;
     position: relative;
 }
 
