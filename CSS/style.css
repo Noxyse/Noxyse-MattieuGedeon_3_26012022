@@ -311,9 +311,10 @@ footer a
 
 .etapes
 {
-    border: 1px black solid;
+    border: 0;
     border-radius: 17px;
-    box-shadow: 4px 4px 4px 4px #F2F2F2;
+    background-color: #F6F6F6;
+    box-shadow: 4px 4px 4px #D5D5D5;
     display: block;
     text-align: center;
     padding-top: 20px;
