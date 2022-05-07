@@ -37,3 +37,17 @@
 {
     text-align: center;
 }
+
+#explorer
+{
+    border: 0;
+    background-color: #9356DC;
+    background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    color: white;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px #D5D5D5;
+    padding: 20px;
+    display: block;
+    margin: 10px 0 10px 0;
+    position: relative;
+}

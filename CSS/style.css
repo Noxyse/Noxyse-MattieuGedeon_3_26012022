@@ -53,11 +53,6 @@ a
     width: 100%;
 }
 
-footer a
-{
-    color: white;
-}
-
 #bloc_page
 {
     max-width: 1920px;
@@ -90,30 +85,6 @@ footer a
     border-radius: 4px;
     line-height: 30px;
     position: absolute;
-}
-
-#commander
-{
-    background-color: #9356DC;
-    border-radius: 17px;
-    padding: 20px;
-    display: block;
-    margin: auto;
-    position: relative;
-}
-
-#explorer
-{
-    border: 0;
-    background-color: #9356DC;
-    background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
-    color: white;
-    border-radius: 50px;
-    box-shadow: 4px 4px 4px #D5D5D5;
-    padding: 20px;
-    display: block;
-    margin: 10px 0 10px 0;
-    position: relative;
 }
 
 .restaurants_accueil
