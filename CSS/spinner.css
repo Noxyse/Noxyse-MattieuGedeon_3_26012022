@@ -1,0 +1,69 @@
+@keyframes disparition
+{
+    0%
+    {
+        height: 250vh;
+        opacity: 1;
+        z-index: 200;
+    }
+
+    99%
+    {
+        height: 250vh;
+        opacity: 1;
+        z-index: 200;
+    }
+
+    100%
+    {
+        height: 0vh;
+        opacity: 0;
+        z-index: -10;
+    }
+}
+
+#contenair_spinner
+{
+    animation: 3s linear forwards disparition;
+    width: 100%;
+    height: 250vh;
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    background-color: #FFFFFF;
+}
+
+@keyframes spinner 
+{
+    0% 
+    {
+        opacity: 1;
+        transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+
+    95%
+    {
+        opacity: 1;
+    }
+
+    100% 
+    {
+        opacity: 0;
+        transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+  }
+
+.spin {
+    opacity: 1;
+    animation: 3s linear forwards spinner;
+    border: solid 5px #cfd0d1;
+    border-bottom-color: #1c87c9;
+    border-radius: 50%;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 40px;
+    will-change: transform;
+  }

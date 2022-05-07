@@ -1,3 +1,6 @@
+@import url('header.css');
+@import url('spinner.css');
+
 @font-face {
     font-family: 'Shrikhand';
     src: url('../Shrikhand-Regular.ttf');
@@ -18,76 +21,6 @@ img
 {
     width: 100%;
 }
-
-@keyframes disparition
-{
-    0%
-    {
-        height: 250vh;
-        opacity: 1;
-        z-index: 200;
-    }
-
-    99%
-    {
-        height: 250vh;
-        opacity: 1;
-        z-index: 200;
-    }
-
-    100%
-    {
-        height: 0vh;
-        opacity: 0;
-        z-index: -10;
-    }
-}
-
-#contenair_spinner
-{
-    animation: 3s linear forwards disparition;
-    width: 100%;
-    height: 250vh;
-    position: absolute;
-    z-index: 200;
-    top: 0;
-    background-color: #FFFFFF;
-}
-
-@keyframes spinner 
-{
-    0% 
-    {
-        opacity: 1;
-        transform: translate3d(-50%, -50%, 0) rotate(0deg);
-    }
-
-    95%
-    {
-        opacity: 1;
-    }
-
-    100% 
-    {
-        opacity: 0;
-        transform: translate3d(-50%, -50%, 0) rotate(360deg);
-    }
-  }
-
-.spin {
-    opacity: 1;
-    animation: 3s linear forwards spinner;
-    border: solid 5px #cfd0d1;
-    border-bottom-color: #1c87c9;
-    border-radius: 50%;
-    height: 40px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0);
-    width: 40px;
-    will-change: transform;
-  }
 
 .shrikhand
 {
@@ -155,46 +88,6 @@ footer a
     border-radius: 4px;
     line-height: 30px;
     position: absolute;
-}
-
-#titre
-{
-    width: 60%;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#localisation
-{
-    font-family: "Roboto";
-    display: flex;
-    justify-content: center;
-    font-size: 1em;
-    font-weight: 700;
-    color: #353535;
-    text-align: center;
-    background-color: #e9e9e9;
-    box-shadow: inset 3px 3px #d5d5d5;
-    padding: 20px 0 20px 0;
-}
-
-#reservez
-{
-    background-color: #F6F6F6;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-#reservez p
-{
-    text-align: center;
 }
 
 #commander
