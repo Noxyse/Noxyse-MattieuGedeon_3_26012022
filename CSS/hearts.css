@@ -1,0 +1,37 @@
+.fiches_coeur
+{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    bottom: 30px;
+    right: 15px;
+}
+
+.fiches_coeur:hover .vide
+{
+    transform: scale(0);
+}
+
+.fiches_coeur:hover .plein
+{
+    transform: scale(1);
+    transition: transform 500ms;
+}
+
+.fiches_coeur .vide
+{
+    position: absolute;
+    font-size: 1,2em;
+    opacity: 1;
+}
+
+.fiches_coeur .plein
+{
+    position: absolute;
+    background: linear-gradient(to bottom, #9356DC, #FF79DA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1,2em;
+    transform: scale(0);
+}
