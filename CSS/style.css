@@ -130,6 +130,7 @@ a
 
 .etapes
 {
+    display: flex;
     border: 0;
     border-radius: 17px;
     background-color: #F6F6F6;
@@ -143,10 +144,32 @@ a
     margin-bottom: 7.5px;
 }
 
+.etapes:hover
+{
+    background-color: #f5edff;
+}
+
 .etapes i
 {
     color: #909090;
     padding-right: 20px;
+}
+
+.etapes:hover i
+{
+    color: #9356dc;
+}
+
+.numero
+{
+    margin-right: 40px;
+   background-color: #9356dc; 
+   width: 25px;
+   line-height: 25px;
+   border-radius: 50%;
+   color: white;
+   font-size: 0.6em;
+   text-align: center;
 }
 
 .menu_page
