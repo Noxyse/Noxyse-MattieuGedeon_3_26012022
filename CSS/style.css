@@ -135,7 +135,7 @@ a
     border-radius: 17px;
     background-color: #F6F6F6;
     box-shadow: 4px 4px 4px #D5D5D5;
-    display: block;
+    display: flex;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
