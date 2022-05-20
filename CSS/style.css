@@ -128,6 +128,11 @@ a
     position: relative;
 }
 
+.etapes_fonctionnement
+{
+    justify-content: center;
+}
+
 .etapes
 {
     display: flex;
@@ -141,7 +146,7 @@ a
     padding-bottom: 20px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 7.5px;
+    margin-bottom: 15px;
 }
 
 .etapes:hover
@@ -163,13 +168,15 @@ a
 .numero
 {
     margin-right: 40px;
-   background-color: #9356dc; 
-   width: 25px;
-   line-height: 25px;
-   border-radius: 50%;
-   color: white;
-   font-size: 0.6em;
-   text-align: center;
+    background-color: #9356dc; 
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.6em;
+    text-align: center;
+    position: relative;
+    left: -10px;
 }
 
 .menu_page
