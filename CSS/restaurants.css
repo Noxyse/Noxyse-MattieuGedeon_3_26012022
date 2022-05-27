@@ -1,0 +1,76 @@
+.images_restaurants
+{
+    margin-bottom: -50px;
+}
+
+.images_restaurants img
+{
+    object-fit: cover;
+}
+
+.menu_page
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_bloc
+{
+    width: 100%;
+    background-color: #f6f6f6;
+    border-radius: 25px 25px 0 0;
+    padding-bottom: 40px;
+}
+
+.bloc_titre
+{
+    position: relative;
+}
+
+.bloc_titre h2
+{
+    font-family: "Shrikhand";
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 30px 15px;
+    margin: 0;
+}
+
+.bloc_titre .fa-heart
+{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+.contenu_menu
+{
+    font-family: "Roboto";
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_section
+{
+    margin: 10px 0 15px 0;
+    width: 100%; 
+}
+
+.contenu_menu .menu_section h3
+{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+.contenu_menu .menu_section h3:after
+{
+    background: none repeat scroll 0 0 #99e2d0;
+    bottom: -6px;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 40px;
+    position: relative;
+}

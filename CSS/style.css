@@ -2,6 +2,7 @@
 @import url('hearts.css');
 @import url('spinner.css');
 @import url('footer.css');
+@import url('restaurants.css');
 
 @font-face {
     font-family: 'Shrikhand';
@@ -179,13 +180,6 @@ a
     text-align: center;
     position: relative;
     left: -10px;
-}
-
-.menu_page
-{
-    background-color: gray;
-    border-radius: 17px 17px 0 0;
-    position: relative;
 }
 
 .titre_page
