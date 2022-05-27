@@ -116,19 +116,6 @@ a
     height: 170px;
 }
 
-.mini_fiches
-{
-    border: 4px #FFFFFF solid;
-    background-color: white;
-    border-radius: 17px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 7.5px;
-    position: relative;
-}
-
 .etapes_fonctionnement
 {
     justify-content: center;
