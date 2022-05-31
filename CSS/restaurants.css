@@ -93,3 +93,34 @@
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+.commander
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#commander_btn
+{
+    border: 0;
+    width: 200px;
+    background-color: #9356DC;
+    background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    color: white;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px #D5D5D5;
+    padding: 20px;
+    display: block;
+    margin: 10px 0 10px 0;
+    position: relative;
+}
+
+#commander_btn:hover
+{
+    opacity: 2;
+    background-color: #b792e4;
+    background-image: linear-gradient(to bottom right, #ffaee8, #ad84df);
+    box-shadow: 4px 4px 4px #c3c3c3;
+}
