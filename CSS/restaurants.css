@@ -84,8 +84,9 @@
     background-color: white;
     border-radius: 15px;
     box-shadow: 3px 5px 15px #D5D5D5;
+    max-width: 400px;
+    margin: auto;
     margin-bottom: 20px;
-    cursor: pointer;
 }
 
 .menu_conteneur h4
@@ -96,14 +97,16 @@
 .menu_conteneur p
 {
     font-size: 1.7vh;
+    width: 270px;
 }
 
 .price_check
 {
-    position: absolute;
-    left: 300px;
+    position: relative;
     padding-top: 25px;
     font-size: 1.5vh;
+    margin: auto;
+    margin-right: 30px;
 }
 
 .commander
@@ -135,4 +138,9 @@
     background-color: #b792e4;
     background-image: linear-gradient(to bottom right, #ffaee8, #ad84df);
     box-shadow: 4px 4px 4px #c3c3c3;
+}
+
+footer
+{
+    margin-top: 0;
 }
