@@ -89,6 +89,26 @@
     margin-bottom: 20px;
 }
 
+.mini_fiches
+{
+    animation: fade-in 1.5s forwards;
+}
+
+@keyframes fade-in
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(200%);
+    }
+
+    100%
+    {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
 .menu_conteneur h4
 {
     padding-bottom: 5px;
@@ -100,13 +120,37 @@
     width: 270px;
 }
 
-.price_check
+.prix
 {
     position: relative;
     padding-top: 25px;
     font-size: 1.5vh;
     margin: auto;
     margin-right: 30px;
+}
+
+.check
+{
+    display: block;
+    font-size: 1.2em;
+    height: 60px;
+    width: 45px;
+    margin-top: -10px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    background-color: #99e2d0;
+    border-radius: 0 15px 15px 0;
+}
+
+.check
+{
+    transition: transform .5s;
+}
+
+.mini_fiches:hover .check
+{
+    transform: translate(-50%);
 }
 
 .commander
