@@ -6,6 +6,7 @@
 .images_restaurants img
 {
     object-fit: cover;
+    height: 500px;
 }
 
 .menu_page
@@ -77,7 +78,9 @@
 
 .mini_fiches
 {
+    opacity: 0;
     display: flex;
+    overflow: hidden;
     width: 98%;
     height: 40px;
     padding: 10px 0 10px 10px;
@@ -89,9 +92,21 @@
     margin-bottom: 20px;
 }
 
-.mini_fiches
+#entrees .mini_fiches
 {
     animation: fade-in 1.5s forwards;
+}
+
+#plats .mini_fiches
+{
+    animation: fade-in 1.5s forwards;
+    animation-delay: 1s;
+}
+
+#desserts .mini_fiches
+{
+    animation: fade-in 1.5s forwards;
+    animation-delay: 2s;
 }
 
 @keyframes fade-in
@@ -109,15 +124,26 @@
     }
 }
 
+.menu_conteneur
+{
+    width: 100%;
+    transition: width .4s linear;
+}
+
 .menu_conteneur h4
 {
     padding-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .menu_conteneur p
 {
     font-size: 1.7vh;
-    width: 270px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .prix
@@ -136,21 +162,23 @@
     height: 60px;
     width: 45px;
     margin-top: -10px;
+    margin-right: -60px;
     text-align: center;
     line-height: 60px;
     color: white;
     background-color: #99e2d0;
     border-radius: 0 15px 15px 0;
-}
-
-.check
-{
-    transition: transform .5s;
+    transition: margin-right .4s linear;
 }
 
 .mini_fiches:hover .check
 {
-    transform: translate(-50%);
+    margin-right: 0;
+}
+
+.mini_fiches:hover .menu_conteneur
+{
+    width: 70%;
 }
 
 .commander
