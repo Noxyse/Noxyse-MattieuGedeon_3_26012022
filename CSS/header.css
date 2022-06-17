@@ -62,7 +62,7 @@ input
 
 #explorer:hover
 {
-    opacity: 2;
+    opacity: 1;
     background-color: #b792e4;
     background-image: linear-gradient(to bottom right, #ffaee8, #ad84df);
     box-shadow: 4px 4px 4px #c3c3c3;
