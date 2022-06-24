@@ -1,3 +1,15 @@
+#titre i
+{
+    font-size: 2.5vh;
+    position: absolute;
+    left: 20px;
+}
+
+#titre img
+{
+    
+}
+
 .images_restaurants
 {
     margin-bottom: -50px;
@@ -6,7 +18,7 @@
 .images_restaurants img
 {
     object-fit: cover;
-    height: 500px;
+    height: 300px;
 }
 
 .menu_page
@@ -140,7 +152,7 @@
 
 .menu_conteneur p
 {
-    font-size: 1.7vh;
+    font-size: 1.9vh;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -150,7 +162,7 @@
 {
     position: relative;
     padding-top: 25px;
-    font-size: 1.5vh;
+    font-size: 1.8vh;
     margin: auto;
     margin-right: 30px;
 }
@@ -179,6 +191,16 @@
 .mini_fiches:hover .menu_conteneur
 {
     width: 70%;
+}
+
+.mini_fiches i
+{
+    transition: .4s linear;
+}
+
+.mini_fiches:hover i
+{
+    transform: rotate(360deg);
 }
 
 .commander

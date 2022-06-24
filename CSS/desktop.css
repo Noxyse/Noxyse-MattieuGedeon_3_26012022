@@ -7,3 +7,14 @@
 {
     padding-right: 35px;
 }
+
+.contenu_menu
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.mini_fiches
+{
+    width: 95%;
+}
