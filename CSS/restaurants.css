@@ -35,7 +35,7 @@
     position: relative;
 }
 
-.bloc_titre h2
+.bloc_titre h1
 {
     font-family: "Shrikhand";
     font-size: 1.4em;
@@ -65,14 +65,14 @@
     width: 100%; 
 }
 
-.contenu_menu .menu_section h3
+.contenu_menu .menu_section h2
 {
     text-transform: uppercase;
     padding-bottom: 15px;
     font-weight: 300;
 }
 
-.contenu_menu .menu_section h3:after
+.contenu_menu .menu_section h2:after
 {
     background: none repeat scroll 0 0 #99e2d0;
     bottom: -6px;
