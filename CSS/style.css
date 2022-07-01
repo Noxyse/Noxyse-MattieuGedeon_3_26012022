@@ -127,6 +127,11 @@ a
     height: 170px;
 }
 
+#titre_fonctionnement
+{
+    margin-left: 0;
+}
+
 .etapes_fonctionnement
 {
     justify-content: center;
