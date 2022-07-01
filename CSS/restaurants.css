@@ -148,7 +148,7 @@
 
 .menu_conteneur p
 {
-    font-size: 14px;
+    font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -158,7 +158,7 @@
 {
     position: relative;
     padding-top: 25px;
-    font-size: 10px;
+    font-size: 14px;
     margin: auto;
     margin-right: 30px;
 }
