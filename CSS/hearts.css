@@ -21,7 +21,7 @@
 .fiches_coeur .vide
 {
     position: absolute;
-    font-size: 1.2em;
+    font-size: 1.3em;
     opacity: 1;
 }
 
@@ -32,6 +32,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 1.2em;
+    font-size: 1.3em;
     transform: scale(0);
 }

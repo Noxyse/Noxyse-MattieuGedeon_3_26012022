@@ -1,3 +1,11 @@
+#titre i
+{
+    padding-top: 1vw;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+}
+
 .images_restaurants
 {
     margin-bottom: -50px;
@@ -6,7 +14,7 @@
 .images_restaurants img
 {
     object-fit: cover;
-    height: 500px;
+    height: 300px;
 }
 
 .menu_page
@@ -28,7 +36,7 @@
     position: relative;
 }
 
-.bloc_titre h2
+.bloc_titre h1
 {
     font-family: "Shrikhand";
     font-size: 1.4em;
@@ -58,14 +66,14 @@
     width: 100%; 
 }
 
-.contenu_menu .menu_section h3
+.contenu_menu .menu_section h2
 {
     text-transform: uppercase;
     padding-bottom: 15px;
     font-weight: 300;
 }
 
-.contenu_menu .menu_section h3:after
+.contenu_menu .menu_section h2:after
 {
     background: none repeat scroll 0 0 #99e2d0;
     bottom: -6px;
@@ -140,7 +148,7 @@
 
 .menu_conteneur p
 {
-    font-size: 1.7vh;
+    font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -150,7 +158,7 @@
 {
     position: relative;
     padding-top: 25px;
-    font-size: 1.5vh;
+    font-size: 14px;
     margin: auto;
     margin-right: 30px;
 }
@@ -179,6 +187,16 @@
 .mini_fiches:hover .menu_conteneur
 {
     width: 70%;
+}
+
+.mini_fiches i
+{
+    transition: .4s linear;
+}
+
+.mini_fiches:hover i
+{
+    transform: rotate(360deg);
 }
 
 .commander

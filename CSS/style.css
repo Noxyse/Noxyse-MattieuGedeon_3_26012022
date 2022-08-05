@@ -31,7 +31,7 @@ img
     margin-left: 15px;
 }
 
-h1
+.text-center
 {
     text-align: center;
 }
@@ -125,6 +125,11 @@ a
     width: 100%;
     object-fit: cover;
     height: 170px;
+}
+
+#titre_fonctionnement
+{
+    margin-left: 0;
 }
 
 .etapes_fonctionnement
